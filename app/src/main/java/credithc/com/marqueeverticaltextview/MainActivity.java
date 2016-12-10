@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         info.add("7. test git branch");
         info.add("8. test git branch222");
         info.add("9. test git branch333");
+        info.add("10. test git branch4444444");
         marqueeView.startWithList(info);
     }
 }
