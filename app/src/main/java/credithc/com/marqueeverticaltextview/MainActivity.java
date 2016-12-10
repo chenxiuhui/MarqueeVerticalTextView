@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         info.add("4. 哈哈哈哈哈哈哈哈");
         info.add("5. 走过岁月我才发现");
         info.add("6. 好的好好好的");
+        info.add("7. test git branch");
         marqueeView.startWithList(info);
     }
 }
