@@ -119,7 +119,8 @@ public class MarqueeView extends ViewFlipper {
         TextView tv = new TextView(mContext);
         tv.setGravity(Gravity.LEFT|Gravity.CENTER_VERTICAL);
         tv.setText(text);
-        tv.setTextColor(textColor);
+        //TODO
+//        tv.setTextColor(textColor);
 //        tv.setTextSize(textSize);
         return tv;
     }
