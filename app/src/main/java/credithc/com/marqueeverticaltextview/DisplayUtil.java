@@ -35,14 +35,14 @@ public class DisplayUtil {
         return (int) (spValue * fontScale + 0.5f);
     }
 
-    // 屏幕宽度（像素）
+    // 屏幕宽度
     public static int getWindowWidth(Activity context) {
         DisplayMetrics metric = new DisplayMetrics();
         context.getWindowManager().getDefaultDisplay().getMetrics(metric);
         return metric.widthPixels;
     }
 
-    // 屏幕高度（像素）
+    // 屏幕高度
     public static int getWindowHeight(Activity context) {
         DisplayMetrics metric = new DisplayMetrics();
         context.getWindowManager().getDefaultDisplay().getMetrics(metric);
