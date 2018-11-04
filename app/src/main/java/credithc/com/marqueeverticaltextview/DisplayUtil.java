@@ -42,12 +42,10 @@ public class DisplayUtil {
         return metric.widthPixels;
     }
 
-    // 屏幕高度（像素）
+    // 屏幕高度
     public static int getWindowHeight(Activity context) {
         DisplayMetrics metric = new DisplayMetrics();
-
         context.getWindowManager().getDefaultDisplay().getMetrics(metric);
-
         return metric.heightPixels;
     }
 }
