@@ -45,8 +45,9 @@ public class DisplayUtil {
     // 屏幕高度（像素）
     public static int getWindowHeight(Activity context) {
         DisplayMetrics metric = new DisplayMetrics();
-        context.getWindowManager().getDefaultDisplay().getMetrics(metric);
         
+        context.getWindowManager().getDefaultDisplay().getMetrics(metric);
+
         return metric.heightPixels;
     }
 }
